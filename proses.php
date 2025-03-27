@@ -20,8 +20,8 @@ if (isset($_GET['nama']) && isset($_GET['jabatan']) && isset($_GET['tunjangan'])
 </head>
 
 <body>
-    <div class="container">
-        <h1 class="text-center mb-4">Data Pegawai</h1>
+    <div class="container-fluid">
+        <h1 class="text-center mb-3">Data Pegawai</h1>
 
         <div class="card">
             <div class="card-body">
@@ -31,8 +31,8 @@ if (isset($_GET['nama']) && isset($_GET['jabatan']) && isset($_GET['tunjangan'])
             </div>
         </div>
 
-        <div class="d-flex mt-3">
-            <a href="index.php" class="btn btn-secondary">Back to Form</a>
+        <div class="d-flex mt-2">
+            <a href="index.php" class="btn btn-secondary">Kembali ke form data pegawai</a>
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
