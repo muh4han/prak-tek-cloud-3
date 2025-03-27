@@ -4,26 +4,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pegawai</title>
+    <title>Form Data Pegawai</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 
 <body>
-    <div class="container">
-        <h1 class="text-center mb-4">Masukkan Data Pegawai</h1>
+    <div class="container-fluid">
+        <h1 class="text-center mb-3">Masukkan Data Pegawai</h1>
 
         <form action="proses.php" method="GET">
-            <div class="mb-3">
+            <div class="mb-2">
                 <label for="nama" class="form-label">Nama Pegawai:</label><br>
                 <input type="text" class="form-control" id="nama" name="nama" required>
             </div>
 
-            <div class="mb-3">
+            <div class="mb-2">
                 <label for="jabatan" class="form-label">Jabatan:</label><br>
                 <input type="text" class="form-control" id="jabatan" name="jabatan" required>
             </div>
 
-            <div class="mb-3">
+            <div class="mb-2">
                 <label for="tunjangan" class="form-label">Tunjangan:</label><br>
                 <input type="text" class="form-control" id="tunjangan" name="tunjangan" required>
             </div>
